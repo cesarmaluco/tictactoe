@@ -1,0 +1,256 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.13.3",
+  "hash": "98dacd73bab6c2d9850d",
+  "publicPath": "",
+  "assetsByChunkName": {
+    "TicTacToe-part.bundle": [
+      "TicTacToe-part.bundle.js",
+      "TicTacToe-part.bundle.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "TicTacToe-part.bundle.js",
+      "size": 15390,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "TicTacToe-part.bundle"
+      ]
+    },
+    {
+      "name": "TicTacToe-part.bundle.js.map",
+      "size": 23932,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "TicTacToe-part.bundle"
+      ]
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 13021,
+      "names": [
+        "TicTacToe-part.bundle"
+      ],
+      "files": [
+        "TicTacToe-part.bundle.js",
+        "TicTacToe-part.bundle.js.map"
+      ],
+      "hash": "a8c5aaf4a60dd4e5b313",
+      "parents": [],
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "moduleIdentifier": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "moduleName": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "loc": "",
+          "name": "TicTacToe-part.bundle",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+      "name": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+      "index": 0,
+      "index2": 5,
+      "size": 2285,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "\"use strict\";\nvar __extends = (this && this.__extends) || function (d, b) {\n    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];\n    function __() { this.constructor = d; }\n    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n};\nvar React = require('react');\nvar ReactDom = require('react-dom');\nvar sp_core_library_1 = require('@microsoft/sp-core-library');\nvar sp_webpart_base_1 = require('@microsoft/sp-webpart-base');\nvar TicTacToePart_1 = require('./components/TicTacToePart');\nvar TicTacToePartWebPart = (function (_super) {\n    __extends(TicTacToePartWebPart, _super);\n    function TicTacToePartWebPart() {\n        _super.apply(this, arguments);\n    }\n    TicTacToePartWebPart.prototype.render = function () {\n        var element = React.createElement(TicTacToePart_1.TicTacToePart, {\n            FirstPlayer: this.properties.FirstPlayer,\n            SecondPlayer: this.properties.SecondPlayer\n        });\n        ReactDom.render(element, this.domElement);\n    };\n    Object.defineProperty(TicTacToePartWebPart.prototype, \"dataVersion\", {\n        get: function () {\n            return sp_core_library_1.Version.parse('1.0');\n        },\n        enumerable: true,\n        configurable: true\n    });\n    TicTacToePartWebPart.prototype.getPropertyPaneConfiguration = function () {\n        return {\n            pages: [\n                {\n                    header: {\n                        description: \"Tic Tac Toe\"\n                    },\n                    groups: [\n                        {\n                            groupName: \"Tic Tac Toe\",\n                            groupFields: [\n                                sp_webpart_base_1.PropertyPaneTextField('FirstPlayer', {\n                                    label: \"First Player\"\n                                }), sp_webpart_base_1.PropertyPaneTextField('SecondPlayer', {\n                                    label: \"Second Player\"\n                                })\n                            ]\n                        }\n                    ]\n                }\n            ]\n        };\n    };\n    return TicTacToePartWebPart;\n}(sp_webpart_base_1.BaseClientSideWebPart));\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.default = TicTacToePartWebPart;\n\n"
+    },
+    {
+      "id": 1,
+      "identifier": "external \"react\"",
+      "name": "external \"react\"",
+      "index": 1,
+      "index2": 0,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "module": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "moduleName": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "7:12-28"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/components/TicTacToePart.js",
+          "module": "./lib/webparts/TicTacToe/components/TicTacToePart.js",
+          "moduleName": "./lib/webparts/TicTacToe/components/TicTacToePart.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "7:12-28"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "identifier": "external \"react-dom\"",
+      "name": "external \"react-dom\"",
+      "index": 2,
+      "index2": 1,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "module": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "moduleName": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "type": "cjs require",
+          "userRequest": "react-dom",
+          "loc": "8:15-35"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "identifier": "external \"@microsoft/sp-core-library\"",
+      "name": "external \"@microsoft/sp-core-library\"",
+      "index": 3,
+      "index2": 2,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "module": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "moduleName": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "type": "cjs require",
+          "userRequest": "@microsoft/sp-core-library",
+          "loc": "9:24-61"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "identifier": "external \"@microsoft/sp-webpart-base\"",
+      "name": "external \"@microsoft/sp-webpart-base\"",
+      "index": 4,
+      "index2": 3,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "module": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "moduleName": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "type": "cjs require",
+          "userRequest": "@microsoft/sp-webpart-base",
+          "loc": "10:24-61"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "identifier": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/components/TicTacToePart.js",
+      "name": "./lib/webparts/TicTacToe/components/TicTacToePart.js",
+      "index": 5,
+      "index2": 4,
+      "size": 10568,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/Users/Garcia/tictactoe/node_modules/source-map-loader/index.js!/Users/Garcia/tictactoe/lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "module": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "moduleName": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+          "type": "cjs require",
+          "userRequest": "./components/TicTacToePart",
+          "loc": "11:22-59"
+        }
+      ],
+      "source": "\"use strict\";\nvar __extends = (this && this.__extends) || function (d, b) {\n    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];\n    function __() { this.constructor = d; }\n    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n};\nvar React = require('react');\nvar TicTacToePart = (function (_super) {\n    __extends(TicTacToePart, _super);\n    function TicTacToePart(props, state) {\n        _super.call(this, props);\n        this._players = [];\n        this._game = [];\n        this._currentRow = -1;\n        this._currentCol = -1;\n        this._currentPlayer = -1;\n        this.newGame();\n        this.state = {\n            status: this.playersNotConfigured(this.props) ? 'Please configure Players' : 'Ready',\n            players: this.fillPlayers(props),\n            selectedPlayer: this._players[0]\n        };\n    }\n    /**\n     * newGame: Starts an new game\n     */\n    TicTacToePart.prototype.newGame = function () {\n        this._game = [];\n        var _col0 = [{ col: 0, Player: null }, { col: 1, Player: null }, { col: 2, Player: null }];\n        var _col1 = [{ col: 0, Player: null }, { col: 1, Player: null }, { col: 2, Player: null }];\n        var _col2 = [{ col: 0, Player: null }, { col: 1, Player: null }, { col: 2, Player: null }];\n        this._game.push({ Cols: _col0 });\n        this._game.push({ Cols: _col1 });\n        this._game.push({ Cols: _col2 });\n    };\n    TicTacToePart.prototype.componentWillReceiveProps = function (nextProps) {\n        this.setState({\n            status: this.playersNotConfigured(nextProps) ? 'Please configure Players ' : 'Ready',\n            players: [],\n            selectedPlayer: this._players[0]\n        });\n    };\n    /**\n     * playersNotConfigured: Checks to sse if users are properly set up\n     */\n    TicTacToePart.prototype.playersNotConfigured = function (props) {\n        return props.FirstPlayer === undefined ||\n            props.FirstPlayer === null ||\n            props.FirstPlayer.length === 0 || props.SecondPlayer === undefined ||\n            props.SecondPlayer === null ||\n            props.FirstPlayer.length === 0;\n    };\n    /**\n     * getCurrentPlayer: look for the specific user symbol to paint it\n     * row: line of game\n     * col: column of game\n     */\n    TicTacToePart.prototype.getCurrentPlayer = function (row, col) {\n        if (this.state.status.indexOf(\"Playing\") > -1)\n            if (this._game[row].Cols[col].Player)\n                return this._game[row].Cols[col].Player.Symbol;\n            else\n                return \"ms-Icon ms-Icon--LightBulb\";\n        else\n            return \"ms-Icon ms-Icon--LightBulb\";\n    };\n    /**\n     * Check the winner and shows it\n     */\n    TicTacToePart.prototype.checkWinner = function () {\n        var _winner = null;\n        for (var countGame = 0; countGame <= this._game.length - 1; countGame++) {\n            if (this.checkGame(countGame)) {\n                _winner = this._players[this._currentPlayer];\n                this.setState({\n                    status: \"Winner is \" + this._players[this._currentPlayer].Name,\n                    players: this.state.players,\n                    selectedPlayer: this._players[this._currentPlayer]\n                });\n                this.newGame();\n            }\n        }\n    };\n    /**\n     * checkGame: check every possibility for an winner\n     */\n    TicTacToePart.prototype.checkGame = function (game) {\n        if (this.checkLineGame(game))\n            return true;\n        else if (this.checkColGame(game))\n            return true;\n        else if (this.checkXGame())\n            return true;\n    };\n    /**\n     * checkXGame: checks if crossed game had an winner\n     */\n    TicTacToePart.prototype.checkXGame = function () {\n        if (this._game[0].Cols[0].Player &&\n            this._game[1].Cols[1].Player &&\n            this._game[2].Cols[2].Player) {\n            if (this._game[0].Cols[0].Player == this._players[this._currentPlayer] &&\n                this._game[1].Cols[1].Player == this._players[this._currentPlayer] &&\n                this._game[2].Cols[2].Player == this._players[this._currentPlayer])\n                return true;\n        }\n        if (this._game[0].Cols[2].Player &&\n            this._game[1].Cols[1].Player &&\n            this._game[2].Cols[0].Player) {\n            if (this._game[0].Cols[2].Player == this._players[this._currentPlayer] &&\n                this._game[1].Cols[1].Player == this._players[this._currentPlayer] &&\n                this._game[2].Cols[0].Player == this._players[this._currentPlayer])\n                return true;\n        }\n    };\n    /**\n     * checkLineGame: checks in line games for the Winner\n     */\n    TicTacToePart.prototype.checkLineGame = function (game) {\n        var result = 0;\n        for (var count = 0; count <= this._game[game].Cols.length - 1; count++) {\n            if (this._game[game].Cols[count].Player) {\n                if (this._game[game].Cols[count].Player == this._players[this._currentPlayer])\n                    result++;\n            }\n        }\n        return (result == 3 ? true : false);\n    };\n    /**\n     * checkColGame : checks columns games to see if current user is the Winner\n     * game: index for the game\n     */\n    TicTacToePart.prototype.checkColGame = function (game) {\n        var result = 0;\n        for (var count = 0; count <= this._game[game].Cols.length - 1; count++) {\n            if (this._game[count].Cols[game].Player) {\n                if (this._game[count].Cols[game].Player == this._players[this._currentPlayer])\n                    result++;\n            }\n        }\n        return (result == 3 ? true : false);\n    };\n    /**\n     * Play: Used for play an game\n     * row : line for the game\n     * col : column for the game\n     */\n    TicTacToePart.prototype.play = function (row, col) {\n        this._currentRow = row;\n        this._currentCol = col;\n        this._currentPlayer = this._currentPlayer == 0 ? 1 : 0;\n        if (!this._game[row].Cols[col].Player)\n            this._game[row].Cols[col].Player = this._players[this._currentPlayer];\n        this.setState({\n            status: \"Playing\",\n            players: this.state.players,\n            selectedPlayer: this._players[this._currentPlayer]\n        });\n        this.checkWinner();\n    };\n    /**\n     * Initializes the player collection\n     */\n    TicTacToePart.prototype.fillPlayers = function (nextProps) {\n        this._players.push({ Name: nextProps.FirstPlayer, Symbol: 'ms-Icon ms-Icon--LocationCircle', Games: null });\n        this._players.push({ Name: nextProps.SecondPlayer, Symbol: 'ms-Icon ms-Icon--Cancel', Games: null });\n        return this._players;\n    };\n    TicTacToePart.prototype.render = function () {\n        var _this = this;\n        return (React.createElement(\"div\", null, \n            this.state.status, \n            React.createElement(\"div\", {className: \"ms-Grid\", style: { display: (this.playersNotConfigured(this.props) ? \"none\" : \"block\") }}, \n                React.createElement(\"div\", {className: \"ms-Grid-row\"}, \n                    React.createElement(\"div\", {onClick: function () { return _this.play(0, 0); }, className: \"ms-Grid-col ms-u-sm12 ms-u-md4 ms-u-lg4\", style: { borderRightStyle: \"solid\", borderBottomStyle: \"solid\", textAlign: \"center\", cursor: \"pointer\" }}, \n                        React.createElement(\"i\", {className: this.getCurrentPlayer(0, 0)}, \" \")\n                    ), \n                    React.createElement(\"div\", {onClick: function () { return _this.play(0, 1); }, className: \"ms-Grid-col ms-u-sm12 ms-u-md4 ms-u-lg4\", style: { borderRightStyle: \"solid\", borderBottomStyle: \"solid\", textAlign: \"center\", cursor: \"pointer\" }}, \n                        React.createElement(\"i\", {className: this.getCurrentPlayer(0, 1)}, \" \")\n                    ), \n                    React.createElement(\"div\", {onClick: function () { return _this.play(0, 2); }, className: \"ms-Grid-col ms-u-sm12 ms-u-md4 ms-u-lg4\", style: { borderBottomStyle: \"solid\", textAlign: \"center\", cursor: \"pointer\" }}, \n                        React.createElement(\"i\", {className: this.getCurrentPlayer(0, 2)}, \" \")\n                    )), \n                React.createElement(\"div\", {className: \"ms-Grid-row\"}, \n                    React.createElement(\"div\", {onClick: function () { return _this.play(1, 0); }, className: \"ms-Grid-col ms-u-sm12 ms-u-md4 ms-u-lg4\", style: { borderRightStyle: \"solid\", borderBottomStyle: \"solid\", textAlign: \"center\", cursor: \"pointer\" }}, \n                        React.createElement(\"i\", {className: this.getCurrentPlayer(1, 0)}, \" \")\n                    ), \n                    React.createElement(\"div\", {onClick: function () { return _this.play(1, 1); }, className: \"ms-Grid-col ms-u-sm12 ms-u-md4 ms-u-lg4\", style: { borderRightStyle: \"solid\", borderBottomStyle: \"solid\", textAlign: \"center\", cursor: \"pointer\" }}, \n                        React.createElement(\"i\", {className: this.getCurrentPlayer(1, 1)}, \" \")\n                    ), \n                    React.createElement(\"div\", {onClick: function () { return _this.play(1, 2); }, className: \"ms-Grid-col ms-u-sm12 ms-u-md4 ms-u-lg4\", style: { borderBottomStyle: \"solid\", textAlign: \"center\", cursor: \"pointer\" }}, \n                        React.createElement(\"i\", {className: this.getCurrentPlayer(1, 2)}, \" \")\n                    )), \n                React.createElement(\"div\", {className: \"ms-Grid-row\"}, \n                    React.createElement(\"div\", {onClick: function () { return _this.play(2, 0); }, className: \"ms-Grid-col ms-u-sm12 ms-u-md4 ms-u-lg4\", style: { borderRightStyle: \"solid\", textAlign: \"center\", cursor: \"pointer\" }}, \n                        React.createElement(\"i\", {className: this.getCurrentPlayer(2, 0)}, \" \")\n                    ), \n                    React.createElement(\"div\", {onClick: function () { return _this.play(2, 1); }, className: \"ms-Grid-col ms-u-sm12 ms-u-md4 ms-u-lg4\", style: { borderRightStyle: \"solid\", textAlign: \"center\", cursor: \"pointer\" }}, \n                        React.createElement(\"i\", {className: this.getCurrentPlayer(2, 1)}, \" \")\n                    ), \n                    React.createElement(\"div\", {onClick: function () { return _this.play(2, 2); }, className: \"ms-Grid-col ms-u-sm12 ms-u-md4 ms-u-lg4\", style: { textAlign: \"center\", cursor: \"pointer\" }}, \n                        React.createElement(\"i\", {className: this.getCurrentPlayer(2, 2)}, \" \")\n                    )))));\n    };\n    return TicTacToePart;\n}(React.Component));\nexports.TicTacToePart = TicTacToePart;\n\n"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
