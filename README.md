@@ -106,3 +106,5 @@ declare module "es6-collections" {
 # add the component TicTacToe to the page clicking on + 
 
 # configure First Player and Second Player clicking on "pen"
+
+# to run test npm run test
