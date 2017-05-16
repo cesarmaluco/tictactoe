@@ -6,7 +6,6 @@ import {
   IPropertyPaneConfiguration,
   PropertyPaneTextField
 } from '@microsoft/sp-webpart-base';
-
 import TicTacToePart from './components/TicTacToePart';
 
 export default class TicTacToePartWebPart extends BaseClientSideWebPart<any> {
