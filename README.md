@@ -4,7 +4,7 @@ tictactoe for freework.io
 # to run 
 npm install 
 
-# change the contents of node_modlues/@types/es6-collections/index.d.ts to
+# change the contents of node_modules/@types/es6-collections/index.d.ts to
 
 interface IteratorResult<T> {
     done: boolean;
