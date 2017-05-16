@@ -5,7 +5,7 @@ import {TicTacToePart,IReactCrudState, IGame, ICols} from '../components/TicTacT
 
 describe('TicTacToePart', () => {
   beforeEach(() => {
-  
+      
   });
 
   it('Gives an error because requires player configuration', () => {
