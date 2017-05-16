@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/TicTacToe/TicTacToeWebPart.js",
+      "manifest": "./src/webparts/TicTacToe/TicTacToeWebPart.manifest.json",
+      "outputPath": "./dist/TicTacToe-part.bundle.js"
+    }
+  ],
+  "externals": {
+   
+  }
+}

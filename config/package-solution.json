@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "event-app-client-side-solution",
+    "id": "ebc2a07b-0daa-4179-9855-9e225a7ed541",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/event-app.sppkg"
+  }
+}
