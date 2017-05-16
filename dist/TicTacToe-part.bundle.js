@@ -170,7 +170,7 @@ define("5b88d795-0ad6-4003-8692-80ae0a598250", ["react","react-dom","@microsoft/
 	    TicTacToePart.prototype.componentWillReceiveProps = function (nextProps) {
 	        this.setState({
 	            status: this.playersNotConfigured(nextProps) ? 'Please configure Players ' : 'Ready',
-	            players: [],
+	            players: this.fillPlayers(nextProps),
 	            selectedPlayer: this._players[0]
 	        });
 	    };
@@ -296,6 +296,7 @@ define("5b88d795-0ad6-4003-8692-80ae0a598250", ["react","react-dom","@microsoft/
 	     * Initializes the player collection
 	     */
 	    TicTacToePart.prototype.fillPlayers = function (nextProps) {
+	        this._players = [];
 	        this._players.push({ Name: nextProps.FirstPlayer, Symbol: 'ms-Icon ms-Icon--LocationCircle', Games: null });
 	        this._players.push({ Name: nextProps.SecondPlayer, Symbol: 'ms-Icon ms-Icon--Cancel', Games: null });
 	        return this._players;

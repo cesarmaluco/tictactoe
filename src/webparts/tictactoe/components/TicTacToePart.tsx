@@ -55,7 +55,7 @@ export  class TicTacToePart extends React.Component<any, IReactCrudState> {
   
     this.setState({
       status: this.playersNotConfigured(nextProps) ? 'Please configure Players ' : 'Ready',
-      players: [],
+      players: this.fillPlayers(nextProps),
       selectedPlayer: this._players[0]
     });
     
@@ -196,7 +196,7 @@ export  class TicTacToePart extends React.Component<any, IReactCrudState> {
    * Initializes the player collection
    */
   private fillPlayers(nextProps): IPlayer[]{
-   
+    this._players = [];
     this._players.push({Name:nextProps.FirstPlayer,Symbol:'ms-Icon ms-Icon--LocationCircle',Games: null});
     this. _players.push({Name:nextProps.SecondPlayer,Symbol:'ms-Icon ms-Icon--Cancel',Games: null});
     return this._players;
