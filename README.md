@@ -4,7 +4,7 @@ tictactoe for freework.io
 # to run 
 npm install 
 
-#change the contents of node_modlues/@types/es6-collections/index.d.ts to
+# change the contents of node_modlues/@types/es6-collections/index.d.ts to
 
 interface IteratorResult<T> {
     done: boolean;
@@ -101,8 +101,8 @@ declare module "es6-collections" {
 }
 
 
-#run gulp serve
+# run gulp serve
 
-#add the component TicTacToe to the page clicking on + 
+# add the component TicTacToe to the page clicking on + 
 
-#configure First Player and Second Player clicking on "pen"
+# configure First Player and Second Player clicking on "pen"
