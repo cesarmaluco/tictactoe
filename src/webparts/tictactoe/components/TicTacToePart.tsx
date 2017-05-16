@@ -20,7 +20,7 @@ export interface IGame {
   Cols : ICols[];
 }
 
-export default class TicTacToePart extends React.Component<any, IReactCrudState> {
+export  class TicTacToePart extends React.Component<any, IReactCrudState> {
   
   private _players : IPlayer[] = [];
   private _game : IGame[] = [];
